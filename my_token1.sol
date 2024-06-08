@@ -1,7 +1,7 @@
 
 
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.18;
+pragma solidity 0.8.18;
 /*
        REQUIREMENTS
     1. Your contract will have public variables that store the details about your coin (Token Name, Token Abbrv., Total Supply)
@@ -34,7 +34,7 @@ mapping (address =>uint256) public balances ;
     // burn function
     function burn (address _address , uint _val) public{
         if (balances [_address] >= _val){
-           totalSupply += _val ;
+           totalSupply -= _val ;
            balances [_address]  -= _val;
         }
     }
