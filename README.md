@@ -1,6 +1,5 @@
 # Project Title
-MyToken Smart Contract
-
+MyToken 
 ## Simple Overview
 This project is a basic implementation of an Ethereum smart contract that creates and manages a custom cryptocurrency token. The smart contract includes functionalities to mint new tokens, burn existing tokens, and keep track of balances for each address.
 
